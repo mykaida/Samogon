@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity">
+        <item
+            android:id="@+id/setipadres"
+            android:orderInCategory="100"
+            android:title="@string/setIP_addres"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/tboiler"
+            android:orderInCategory="100"
+            android:title="@string/MaxT_boiler"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/tbend"
+            android:orderInCategory="100"
+            android:title="@string/MaxT_bend"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/tcooler"
+            android:orderInCategory="100"
+            android:title="@string/MaxT_cooler"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/about"
+            android:orderInCategory="100"
+            android:title="@string/About"
+            app:showAsAction="never"/>
+
+</menu>

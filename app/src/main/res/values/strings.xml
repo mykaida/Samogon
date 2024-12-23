@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Samogon v1</string>
+    <string name="TemperatureBoilerString">Температура бака</string>
+    <string name="ZeroValue">"-00.00"</string>
+    <string name="followString">Отслеживать</string>
+    <string name="TemperatureBendString">Температура колена</string>
+    <string name="TemperatureCoolerString">Температура охладителя</string>
+    <string name="setIP_addres">Задать IP адрес</string>
+    <string name="IP_addres">192.168.1.1</string>
+    <string name="MaxT_boiler">Температура бака</string>
+    <string name="MaxT_bend">Температура колена</string>
+    <string name="MaxT_cooler">Температура охладителя</string>
+    <string name="About">О программе</string>
+    <string name="ErrorOfConnection">Ошибка соединения</string>
+    <string name="zeroString">-00.00</string>
+    <string name="FortyString">40.00</string>
+    <string name="Ip_request">Введите IP адрес</string>
+
+    <string name="Boiler">Введите температуру бака</string>
+    <string name="Bend">Введите температуру колена</string>
+    <string name="Cooler">Введите температуру охлад.</string>
+
+    <string name="BoilerAlarm">Превышена температура бака</string>
+    <string name="BendAlarm">Превышена температура колена</string>
+    <string name="CoolerAlarm">Превышена температура охлад.</string>
+
+    <string name="Temp_temp">40.00</string>
+    <string name="TboilerSetString">40.00</string>
+    <string name="TbendSetString">40.00</string>
+    <string name="TCoolerSetString">40.00</string>
+
+    <string name="aboutVersion">Версия: 1.1</string>
+    <string name="aboutAuthor">Автор: Силищев Г.В.</string>
+    <string name="aboutEmail">E-mail: mykaida@gmail.com</string>
+
+</resources>

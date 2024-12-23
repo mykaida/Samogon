@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/debug/res/drawable/ic_launcher_background.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/debug/res/drawable/ic_samogon_background.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/debug/res/drawable/ic_samogon_round.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/debug/res/mipmap-anydpi-v26/ic_samogon.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/debug/res/mipmap-anydpi-v26/ic_samogon_round.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/drawable/ic_samoggon_background.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/drawable/ic_samogon_background.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/layout/about.xml" value="0.5" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/layout/activity_main.xml" value="0.34782608695652173" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/layout/inputtemperaturs.xml" value="0.34782608695652173" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/menu/menu_main.xml" value="0.359375" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/mipmap-anydpi-v26/ic_samoggon.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/mipmap-anydpi-v26/ic_samoggon_round.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/xml/network_security_config.xml" value="0.34782608695652173" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/main/res/xml/preferences.xml" value="0.34782608695652173" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/release/res/drawable/ic_launcher_background.xml" value="0.14" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/release/res/drawable/ic_samogon_background.xml" value="0.14" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/release/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/release/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.298" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/release/res/mipmap-anydpi-v26/ic_samogon.xml" value="0.14" />
+        <entry key="..\:/Users/german/AndroidStudioProjects/Samogonv1/app/src/release/res/mipmap-anydpi-v26/ic_samogon_round.xml" value="0.14" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TemperatureBoilerString_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TemperatureBoilerString"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/temperatureBendString_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TemperatureBendString"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxBoiler_id"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <TextView
+        android:id="@+id/temperatureCoolerString_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TemperatureCoolerString"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxBend_id"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBoiler_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/followString"
+        app:layout_constraintEnd_toStartOf="@+id/temperatureBoilerQuantify_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/TemperatureBoilerString_id"
+        app:layout_constraintTop_toBottomOf="@+id/TemperatureBoilerString_id" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBend_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/followString"
+        app:layout_constraintEnd_toEndOf="@+id/temperatureBendString_id"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="@+id/temperatureBendString_id"
+        app:layout_constraintTop_toBottomOf="@+id/temperatureBendString_id" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCooler_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/followString"
+        app:layout_constraintEnd_toEndOf="@+id/temperatureCoolerString_id"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="@+id/temperatureCoolerString_id"
+        app:layout_constraintTop_toBottomOf="@+id/temperatureCoolerString_id" />
+
+    <TextView
+        android:id="@+id/temperatureBoilerQuantify_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zeroString"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TemperatureBoilerString_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toEndOf="@+id/TemperatureBoilerString_id"
+        app:layout_constraintTop_toTopOf="@+id/TemperatureBoilerString_id"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/temperatureBendQuantify_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zeroString"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/temperatureBendString_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toEndOf="@+id/temperatureBendString_id"
+        app:layout_constraintTop_toTopOf="@+id/temperatureBendString_id"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/temperatureCoolerQuantify_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zeroString"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/temperatureCoolerString_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toEndOf="@+id/temperatureBendString_id"
+        app:layout_constraintTop_toTopOf="@+id/temperatureCoolerString_id"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/temperatureBoilerSet_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FortyString"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/temperatureBoilerQuantify_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toEndOf="@+id/temperatureBoilerQuantify_id"
+        app:layout_constraintTop_toTopOf="@+id/temperatureBoilerQuantify_id"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/temperatureBendSet_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FortyString"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/temperatureBendQuantify_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toEndOf="@+id/temperatureBendQuantify_id"
+        app:layout_constraintTop_toTopOf="@+id/temperatureBendQuantify_id"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/temperatureCoolerSet_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FortyString"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/temperatureCoolerQuantify_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toEndOf="@+id/temperatureBendQuantify_id"
+        app:layout_constraintTop_toTopOf="@+id/temperatureCoolerQuantify_id"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/errorOfConnection"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ErrorOfConnection"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxCooler_id"
+        tools:visibility="invisible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

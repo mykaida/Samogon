@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/InputTemperature"
+        android:layout_width="411dp"
+        android:layout_height="54dp"
+        android:digits="0123456789."
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/invitingText"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/invitingText"
+        android:layout_width="414dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
